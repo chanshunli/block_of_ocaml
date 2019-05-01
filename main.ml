@@ -46,4 +46,3 @@ let _ =
   if 2 <= argc then
     (* Timings.(time All) main "tests/let.ml"; *)
     main Sys.argv.(1); (* "let x= 1 in x"; *)
-    if !Clflags.print_timings then Timings.print Format.std_formatter;
